@@ -4,7 +4,7 @@ MacSandboxTest
 Sandbox化されたMacアプリで、ファイルにアクセスした場所をブックマークとして保存する場合のサンプルです。
 
 
-Openボタンで選択したファイルをNSUserDefaultsへBookmark Dataとして保存し、
+Openボタンで選択したファイルのURLをNSUserDefaultsへBookmark Dataとして保存し、
 その後再び同じファイルへアクセスする場合にBookmark Dataを読み込んでからアクセスします。
 
 サンプルとしてオーディオの再生を想定していますが、ファイルの種類のチェックなどはしていませんので、AVAudioPlayerで再生出来ないものはエラーとしてログ出力します。
